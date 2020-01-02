@@ -17,6 +17,7 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  dio: ^3.0.7 #latest version
   flutter:
     sdk: flutter
 
@@ -59,17 +60,17 @@ flutter:
   fonts:
     - family: FiraSans-ExtraBold
       fonts:
-        - asset: fonts/FiraSans-ExtraBold.ttf
-        - asset: fonts/FiraSans-ExtraBoldItalic.ttf
+        - asset: assets/fonts/FiraSans-ExtraBold.ttf
+        - asset: assets/fonts/FiraSans-ExtraBoldItalic.ttf
           style: italic
     - family: FiraSans-Light
       fonts:
-        - asset: fonts/FiraSans-Light.ttf
-        - asset: fonts/FiraSans-LightItalic.ttf
+        - asset: assets/fonts/FiraSans-Light.ttf
+        - asset: assets/fonts/FiraSans-LightItalic.ttf
           style: italic
     - family: FiraSans-Regular
       fonts:
-        - asset: fonts/FiraSans-Regular.ttf
+        - asset: assets/fonts/FiraSans-Regular.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
